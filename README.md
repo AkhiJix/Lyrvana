@@ -1,7 +1,7 @@
 # Lyrvana
-A Music Searching Engine implemented using Elasticsearch. 
-This project is developed as a part of the coursework *CS185C-Advanced Topics in CS (Big Data)* under the supervision of Prof. James Casaletto at San Jose State University.  
-The team members are [Akhilesh Jichkar]("https://github.com/AkhiJix/") and [Siddharth Kulkarni]("https://github.com/siddharthkul").  
+- A Music Searching Engine implemented using Elasticsearch. <br />
+- This project is developed as a part of the coursework *CS185C-Advanced Topics in CS (Big Data)* under the supervision of Prof. James - Casaletto at San Jose State University.  
+- The team members are [Akhilesh Jichkar](https://github.com/AkhiJix) and [Siddharth Kulkarni](https://github.com/siddharthkul).  
 
 ## Introduction
 
@@ -28,11 +28,11 @@ It contains 57650 songs in CSV format. The attributes are Artist Name, Song Name
 
 To be ingested by Elasticsearch, the data needs to be converted from CSV to JSON.
 Since the data is around 70MBs, the online converters won't be able to do the conversion.
-Therfore, a python script [*csvtojson.py*]("../data/csvtojson.py") is written to perform the conversion. The output is [LyrJson.json](..data/LyrJson.zip)
-> PS: Unzip [zip file](../data/songdata.zip) first to get the csv file.
-> PS: There is an extra comma in Line 2 of the generated JSON file, and it needs to be removed manually.
+Therfore, a python script [*csvtojson.py*]("/data/csvtojson.py") is written to perform the conversion. The output is [*LyrJson.zip*](/data/LyrJson.zip)
+> PS: Unzip [zip file](/data/songdata.zip) first to get the csv file. <br />
+> PS: There is an extra comma in Line 2 of the generated JSON file, and it needs to be removed manually.  
 
-Optionally, you may want to include images of artist in your search results, [artistimages.py](../data/artistimages.py) shows a rudimentary way to obtain artist images from Wikipedia pages using BeautifulSoup, a Python Web Scraping tool.
+Optionally, you may want to include images of artist in your search results, [*artistimages.py*](/data/artistimages.py) shows a rudimentary way to obtain artist images from Wikipedia pages using BeautifulSoup, a Python Web Scraping tool.
 
 The data preprocessing is now complete.
 
