@@ -17,7 +17,7 @@ An Elasticsearch cluster can be installed on all major platforms. In order to en
 - Create a new account on [Elastic cloud](https://cloud.elastic.co "Elastic Cloud"). <br />
 - Create a New Cluster and keep the default settings intact on the following page. Let the cluster name be _Cluster1ES_.<br />
 - Now view the cluster just created. Save the CloudID, username and password for the newly created cluster. You'll need this later.<br />
-- Wait for the 'Node Status' to change to 'Running'. Now click on the Endpoints -> Elasticsearch to see .<br />
+- Wait for the 'Node Status' to change to 'Running'. Now click on the Endpoints -> Elasticsearch to see the properties of the cluster.<br />
 - The cluster is up and running now.<br />
 
 The next step involves creating indices on this Elasticsearch cluster. But before that, we need to take a look into the data we would be using for the project. This is because the Elasticsearch indices depend on the data type of the incoming data.
