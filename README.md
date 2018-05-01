@@ -1,7 +1,7 @@
 # Lyrvana
-- A Music Searching Engine implemented using Elasticsearch. <br />
+- Text Based Music Search Engine implemented using Elasticsearch. <br />
 - This project is developed as a part of the coursework *CS185C-Advanced Topics in CS (Big Data)* under the supervision of Prof. James - Casaletto at San Jose State University.  
-- The team members are [Akhilesh Jichkar](https://github.com/AkhiJix) and [Siddharth Kulkarni](https://github.com/siddharthkul).  
+- The team members are [Akhilesh Jichkar](https://github.com/AkhiJix) and [Siddharth Kulkarni](https://github.com/siddharthkul)(https://github.com/siddharthkul).  
 
 ## Introduction
 
@@ -37,3 +37,8 @@ Optionally, you may want to include images of artist in your search results, [*a
 The data preprocessing is now complete.
 
 ## Creating Indices on Elastic Cloud
+
+## Running Front End 
+
+Go to root directory of front end folder and run web server.
+PHP: php -S localhost:8000
