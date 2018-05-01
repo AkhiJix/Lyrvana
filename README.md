@@ -1,7 +1,7 @@
 # Lyrvana
 - Text Based Music Search Engine implemented using Elasticsearch. <br />
 - This project is developed as a part of the coursework *CS185C-Advanced Topics in CS (Big Data)* under the supervision of Prof. James - Casaletto at San Jose State University.  
-- The team members are [Akhilesh Jichkar](https://github.com/AkhiJix) and [Siddharth Kulkarni](https://github.com/siddharthkul)(https://github.com/siddharthkul).  
+- The team members are [Akhilesh Jichkar](https://github.com/AkhiJix) and [Siddharth Kulkarni](https://github.com/siddharthkul).  
 
 ## Introduction
 
