@@ -42,3 +42,4 @@ The data preprocessing is now complete.
 
 Go to root directory of front end folder and run web server.
 PHP: php -S localhost:8000
+open browser at http://localhost:8000
