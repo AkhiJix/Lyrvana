@@ -49,7 +49,7 @@ Now that the tables are created, we need to feed the data in these indices. Agai
 ## Running Front End 
 
 The data is in the cluster, all properly indexed.
-Now just launch the web server and you're ready!
+Now just launch the web server and you're ready!  
 `Go to root directory of front end folder and run web server.`  
 `PHP: php -S localhost:8000`  
 `Open browser at http://localhost:8000`
