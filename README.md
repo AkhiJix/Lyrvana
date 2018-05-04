@@ -37,9 +37,19 @@ Optionally, you may want to include images of artist in your search results, [*a
 The data preprocessing is now complete.
 
 ## Creating Indices on Elastic Cloud
+Indices can be thought of as tables in Elasticsearch.  
+First we need to provide the structure of the table, to do so, first change the username, password and elastic-endpoint cluster address in [*indices-creation.py*](/elasticsearch/indices-creation.py) and execute it.  
+
+> There *would* be compatibilty issues between Python versions. Try executing on Python 2.7.10 or Python 3. Else, Stackoverflow.  
+
+Now that the tables are created, we need to feed the data in these indices. Again, change the username, password, and elastic-endpoint cluster address in [*data-ingestion.py*](/elasticsearch/data-ingestion.py) and execute it.  
+
+> Waiting time: 45 minutes. You could watch an episode of Silicon Valley _or_ you could hit the gym. Your choice!
 
 ## Running Front End 
 
-Go to root directory of front end folder and run web server.
-PHP: php -S localhost:8000
-open browser at http://localhost:8000
+The data is in the cluster, all properly indexed.
+Now just launch the web server and you're ready!
+`Go to root directory of front end folder and run web server.`  
+`PHP: php -S localhost:8000`  
+`Open browser at http://localhost:8000`
