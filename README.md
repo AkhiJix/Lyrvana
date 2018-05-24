@@ -1,6 +1,6 @@
 # Lyrvana
 - Text Based Music Search Engine implemented using Elasticsearch. <br />
-- This project is developed as a part of the coursework *CS185C-Advanced Topics in CS (Big Data)* under the supervision of Prof. James - Casaletto at San Jose State University.  
+- This project is developed as a part of the coursework *CS185C-Advanced Topics in CS (Big Data)* under the supervision of Prof. James Casaletto at San Jose State University.  
 - The team members are [Akhilesh Jichkar](https://github.com/AkhiJix) and [Siddharth Kulkarni](https://github.com/siddharthkul).  
 
 ## Introduction
@@ -50,6 +50,6 @@ Now that the tables are created, we need to feed the data in these indices. Agai
 
 The data is in the cluster, all properly indexed.
 Now just launch the web server and you're ready!  
-`Go to root directory of front end folder and run web server.`  
-`PHP: php -S localhost:8000`  
-`Open browser at http://localhost:8000`
+> Go to root directory of front end folder and run web server.  
+> PHP: php -S localhost:8000  
+> Open browser at http://localhost:8000
